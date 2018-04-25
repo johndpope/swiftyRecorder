@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PatrikARApp
+//  swiftyRecorder
 //
 //  Created by Patrik Jonell on 2018-01-16.
 //  Copyright © 2018 Patrik Jonell. All rights reserved.
@@ -12,7 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

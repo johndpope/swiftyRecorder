@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0E63A2208BF99E00CE02AA /* OlvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E63A1208BF99E00CE02AA /* OlvViewController.swift */; };
+		2E1762AB200F7BD300E8AD68 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1762AA200F7BD300E8AD68 /* SecondViewController.swift */; };
+		2E4BCE542020C05100B5307F /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4BCE4D2020C05100B5307F /* ARKit.framework */; };
 		2EC3850B200E376E00ED064B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3850A200E376E00ED064B /* AppDelegate.swift */; };
 		2EC3850D200E376E00ED064B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3850C200E376E00ED064B /* art.scnassets */; };
 		2EC3850F200E376E00ED064B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3850E200E376E00ED064B /* ViewController.swift */; };
 		2EC38512200E376E00ED064B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC38510200E376E00ED064B /* Main.storyboard */; };
 		2EC38514200E376E00ED064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC38513200E376E00ED064B /* Assets.xcassets */; };
 		2EC38517200E376E00ED064B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC38515200E376E00ED064B /* LaunchScreen.storyboard */; };
+		2EC38522200E3D2800ED064B /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC38521200E3D2800ED064B /* Package.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E17629E200F662E00E8AD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E17629A200F662D00E8AD68 /* iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 036486761F820BBD00F3D6CE;
+			remoteInfo = SwiftOSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EF6429C208B3603004B0FAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2EC38507200E376E00ED064B /* PatrikARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrikARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0E63A1208BF99E00CE02AA /* OlvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlvViewController.swift; sourceTree = "<group>"; };
+		2E17629A200F662D00E8AD68 /* iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOS.xcodeproj; path = ../SwiftOSC/Framework/iOS/iOS.xcodeproj; sourceTree = "<group>"; };
+		2E1762AA200F7BD300E8AD68 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E4BCE4D2020C05100B5307F /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		2EC38507200E376E00ED064B /* swiftyRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftyRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC3850A200E376E00ED064B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC3850C200E376E00ED064B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2EC3850E200E376E00ED064B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +55,7 @@
 		2EC38513200E376E00ED064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EC38516200E376E00ED064B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EC38518200E376E00ED064B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC38521200E3D2800ED064B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,60 +63,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4BCE542020C05100B5307F /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E17629B200F662D00E8AD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E17629F200F662E00E8AD68 /* SwiftOSC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2EC384FE200E376E00ED064B = {
 			isa = PBXGroup;
 			children = (
-				2EC38509200E376E00ED064B /* PatrikARApp */,
+				2E17629A200F662D00E8AD68 /* iOS.xcodeproj */,
+				2EC38509200E376E00ED064B /* swiftyRecorder */,
 				2EC38508200E376E00ED064B /* Products */,
+				2EC3851E200E3C7D00ED064B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2EC38508200E376E00ED064B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EC38507200E376E00ED064B /* PatrikARApp.app */,
+				2EC38507200E376E00ED064B /* swiftyRecorder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EC38509200E376E00ED064B /* PatrikARApp */ = {
+		2EC38509200E376E00ED064B /* swiftyRecorder */ = {
 			isa = PBXGroup;
 			children = (
 				2EC3850A200E376E00ED064B /* AppDelegate.swift */,
 				2EC3850C200E376E00ED064B /* art.scnassets */,
 				2EC3850E200E376E00ED064B /* ViewController.swift */,
+				2E0E63A1208BF99E00CE02AA /* OlvViewController.swift */,
 				2EC38510200E376E00ED064B /* Main.storyboard */,
+				2E1762AA200F7BD300E8AD68 /* SecondViewController.swift */,
 				2EC38513200E376E00ED064B /* Assets.xcassets */,
 				2EC38515200E376E00ED064B /* LaunchScreen.storyboard */,
 				2EC38518200E376E00ED064B /* Info.plist */,
+				2EC38521200E3D2800ED064B /* Package.swift */,
 			);
-			path = PatrikARApp;
+			path = swiftyRecorder;
+			sourceTree = "<group>";
+		};
+		2EC3851E200E3C7D00ED064B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E4BCE4D2020C05100B5307F /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2EC38506200E376E00ED064B /* PatrikARApp */ = {
+		2EC38506200E376E00ED064B /* swiftyRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EC3851B200E376E00ED064B /* Build configuration list for PBXNativeTarget "PatrikARApp" */;
+			buildConfigurationList = 2EC3851B200E376E00ED064B /* Build configuration list for PBXNativeTarget "swiftyRecorder" */;
 			buildPhases = (
 				2EC38503200E376E00ED064B /* Sources */,
 				2EC38504200E376E00ED064B /* Frameworks */,
 				2EC38505200E376E00ED064B /* Resources */,
+				2EF6429C208B3603004B0FAE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PatrikARApp;
-			productName = PatrikARApp;
-			productReference = 2EC38507200E376E00ED064B /* PatrikARApp.app */;
+			name = swiftyRecorder;
+			productName = swiftyApp;
+			productReference = 2EC38507200E376E00ED064B /* swiftyRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +149,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Patrik Jonell";
 				TargetAttributes = {
 					2EC38506200E376E00ED064B = {
@@ -103,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2EC38502200E376E00ED064B /* Build configuration list for PBXProject "PatrikARApp" */;
+			buildConfigurationList = 2EC38502200E376E00ED064B /* Build configuration list for PBXProject "swiftyRecorder" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,12 +169,28 @@
 			mainGroup = 2EC384FE200E376E00ED064B;
 			productRefGroup = 2EC38508200E376E00ED064B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2E17629B200F662D00E8AD68 /* Products */;
+					ProjectRef = 2E17629A200F662D00E8AD68 /* iOS.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				2EC38506200E376E00ED064B /* PatrikARApp */,
+				2EC38506200E376E00ED064B /* swiftyRecorder */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2E17629F200F662E00E8AD68 /* SwiftOSC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftOSC.framework;
+			remoteRef = 2E17629E200F662E00E8AD68 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2EC38505200E376E00ED064B /* Resources */ = {
@@ -140,7 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1762AB200F7BD300E8AD68 /* SecondViewController.swift in Sources */,
+				2EC38522200E3D2800ED064B /* Package.swift in Sources */,
 				2EC3850F200E376E00ED064B /* ViewController.swift in Sources */,
+				2E0E63A2208BF99E00CE02AA /* OlvViewController.swift in Sources */,
 				2EC3850B200E376E00ED064B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +255,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +263,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +314,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +322,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -279,9 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PatrikARApp/Info.plist;
+				DEVELOPMENT_TEAM = A2R4ZRNVUD;
+				INFOPLIST_FILE = swiftyRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.patrikjonell.PatrikARApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrikjonell.swiftyRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,9 +372,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PatrikARApp/Info.plist;
+				DEVELOPMENT_TEAM = A2R4ZRNVUD;
+				INFOPLIST_FILE = swiftyRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.patrikjonell.PatrikARApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrikjonell.swiftyRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EC38502200E376E00ED064B /* Build configuration list for PBXProject "PatrikARApp" */ = {
+		2EC38502200E376E00ED064B /* Build configuration list for PBXProject "swiftyRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EC38519200E376E00ED064B /* Debug */,
@@ -314,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EC3851B200E376E00ED064B /* Build configuration list for PBXNativeTarget "PatrikARApp" */ = {
+		2EC3851B200E376E00ED064B /* Build configuration list for PBXNativeTarget "swiftyRecorder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EC3851C200E376E00ED064B /* Debug */,
